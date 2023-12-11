@@ -252,7 +252,7 @@ async def check_access(user_id: int, api_name: str, db: AsyncSession = Depends(g
     subscription = subscription.scalar_one_or_none()
     if not subscription:
         raise HTTPException(status_code=403, detail="No subscription plan")
-    if subscription.api_endpoint== api_name:
+    if subscription.api_endpoint!= api_name:
         raise HTTPException(status_code=403, detail="access denied")
     return {"message": "Access granted"}
 
