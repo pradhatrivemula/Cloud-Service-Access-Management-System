@@ -22,9 +22,3 @@ To use the API, follow these steps:
 
 6. **View the Response**: The response from the API will be displayed in Postman. You can view the status code, response time, and the body of the response.
 
-
-## Team Members
-- (CWID: 885211540) Pradhatri Vemula
-- (CWID: 885186924) Pavan Kumar Mathari
-- (CWID: 885196220) Pavan Kalyan Bera
-- (CWID: 885187716) Devashish Inampudi
