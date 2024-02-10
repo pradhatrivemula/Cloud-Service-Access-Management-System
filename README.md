@@ -1,5 +1,5 @@
 # API Documentation
-# CPSC449_Project2
+# Cloud Service Access Management System
 
 ## How to Run the API
 To run the API, use the following command:
